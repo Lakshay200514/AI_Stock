@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import SearchBar from "./components/SearchBar";
 import Features from "./components/Feature";
 import Stats from "./components/Stats";
+import DashboardPreview from "./components/DashboardPreview";
 export default function App() {
   return (
     <>
@@ -11,6 +12,7 @@ export default function App() {
       <Hero />
       <Features/>
       <Stats/>
+      <DashboardPreview/>
     </>
   );
 }
