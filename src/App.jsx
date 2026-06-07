@@ -4,6 +4,8 @@ import SearchBar from "./components/SearchBar";
 import Features from "./components/Feature";
 import Stats from "./components/Stats";
 import DashboardPreview from "./components/DashboardPreview";
+import Testimonials from "./components/Testimonials";
+import Footer from "./components/Footer";
 export default function App() {
   return (
     <>
@@ -13,6 +15,8 @@ export default function App() {
       <Features/>
       <Stats/>
       <DashboardPreview/>
+      <Testimonials/>
+      <Footer/>
     </>
   );
 }
